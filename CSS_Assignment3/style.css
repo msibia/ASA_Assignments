@@ -12,15 +12,26 @@ span {
     flex-direction: column;
     width: 500px;
     height: 500px;
-    align-content: center;
     justify-content: center;
     row-gap: 0px;
     margin: auto;
     margin-top: 200px;
-    border: solid black 10px;
-    border-radius: 10px;
+}
 
-
+#highlightText{
+    box-sizing: border-box;
+    background-color:bisque;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin-left: -10px;
+    margin-bottom: 600px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
 }
 
 
@@ -28,11 +39,16 @@ span {
 img {
     max-width: 100%;
     max-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #textArea {
     background-color: white;
     padding: 15px;
+    margin-top: -10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #imageArea {
